@@ -106,8 +106,8 @@ body.dark {
   --primary-color: hsl(150, 84%, 56%);
 }
 
-.colors__item--purple {
-  --primary-color: hsl(276, 84%, 56%);
+.colors__item--red {
+  --primary-color: hsl(0, 84%, 56%);
 }
 
 .colors__item--orange {
