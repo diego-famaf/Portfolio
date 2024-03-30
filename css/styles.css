@@ -19,6 +19,7 @@ a {
 
 img {
   max-width: 100%;
+  
   display: block;
 }
 
@@ -91,6 +92,7 @@ body.dark {
 }
 
 .colors__item {
+  border-radius: 20px;
   width: 20px;
   height: 20px;
   border: 1px solid var(--text-color);
@@ -138,8 +140,8 @@ main {
 
 @media screen and (min-width: 720px) {
   .column--right {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, min-content);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, min-content);
     align-items: start;
   }
 }
@@ -152,6 +154,7 @@ main {
 
 .card__image-container {
   min-width: 320px;
+  max-height: 200px;
   border-radius: var(--border-radius);
   overflow: hidden;
 }
@@ -182,7 +185,7 @@ main {
 
 @media screen and (min-width: 760px) {
   .card--project {
-    display: grid;
+    display:grid;
     grid-template-columns: min-content 1fr;
     grid-column: 1 / -1;
   }
@@ -337,6 +340,7 @@ main {
 .button--primary {
   background-color: var(--primary-color);
   color: var(--bg-color);
+  
 }
 
 .button--ghost {

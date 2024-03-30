@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
     <link rel="stylesheet" href="css/styles.css" /> 
+    <link rel="stylesheet" href="fontawesome/fontawesome-free-6.5.1-web/css/all.css"  /> 
     <title>Portfolio</title>
   </head>
   <body>
@@ -17,7 +18,8 @@
               alt="icon theme"
               class="toggle-theme__icon"
             />
-            <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+            <p id="toggle-text" class="toggle-theme__text" >Dark Mode</p>
+            
           </div>
         </div>
         <div id="flags" class="flags">
@@ -45,7 +47,7 @@
               </div>
               <div class="card__header">
                 <h2 class="card__title">DiegoLinares</h2>
-                <p class="card__subtitle" data-section="profile" data-value="rol" >Back end developer</p>
+                <p class="card__subtitle" data-section="profile" data-value="rol" >FullStack developer</p>
               </div>
               <div class="card__body">
                 <div class="card__link">
@@ -60,66 +62,86 @@
                     +943517542356
                   </a>
                 </div>
+                <div class="card__link">
+                  <i class="fas fa-file icon"></i>
+                  <a href="assets/images/CV-DiegoLinares.pdf" target="_blank">
+                     curriculum vitae
+                  </a>
+                </div>
                 <p class="card__text" data-section="profile" data-value="description">
-                  Have experience in scrum methodology work...
+                  I am experienced in working with the Scrum methodology, where I actively contribute to both evolutionary maintenance and the development of new functionalities in projects.
                 </p> 
               </div>
             </article>            
           </article>
+          <!--EXPERIENCE CARD-->
           <article class="card card--experience">
-            <h2 class="card__title">Experiences</h2>
+            <h2 class="card__title" data-section="experience1" data-value="work">Work Experiences</h2>
             <div class="experiences">
               <img src="" alt="" class="experience__image">
               <div class="experience__info">
-                <p class="experience__time">
-                  Feb 2022 - Current
+                <p class="experience__time" data-section="experience1" data-value="time">
+                  Feb 2022 
                 </p>
-                <h3 class="experience__job">BackEnd and FrontEnd Developer</h3>
+                <h3 class="experience__job" data-section="description-job1" data-value="title">Back-Front Developer</h3>
                 <p class="experience__description">
-                  sdsdddasdsdsdsdsssssssssssssss
-                  sdsdsdsdssssssssssssssssssssssssss
-                  sdsdsdsddddddddddddddddddddddddd
+                 <p class="card__subtitle" data-section="description-job1" data-value="rol">Rol: Developer </p>  
+                 <p class="card__subtitle" data-section="description-job1" data-value="company">Empresa: Neps</p>  
+                 <p class="card__subtitle" data-section="description-job1" data-value="proyects">Proyectos: CABA - IUCBC - BANORTE - SHOPIFY</p>  
+                 <p class="card__subtitle" data-section="description-job1" data-value="technologies1">Tecnologias: .Net - C# - JS </p>                     
+                 <p class="card__subtitle" data-section="description-job1" data-value="technologies2">Funcion: Mantenimiento - Agregado de nuevas funcionalidades - Soporte en sql </p>                     
                 </p>
               </div>
             </div>
-            <div class="experiences">
+            <!--CARD2-->
+            <!-- <div class="experiences">
+              <img src="" alt="" class="experience__image">
+              <div class="experience__info">
+                <p class="experience__time" data-section="experience2" data-value="time">
+                  Abr 2020 - Current
+                </p>
+                <h3 class="experience__job">BackEnd and FrontEnd Developer</h3>
+                <p class="experience__description">
+                 <p class="card__subtitle">Rol: Developer - soporte</p>  
+                 <p class="card__subtitle">Empresa: Neps</p>  
+                 <p class="card__subtitle">Proyectos: CABA -</p>  
+                 <p class="card__subtitle">Tecnologias: .Net - C# - JS </p>    
+                </p>
+              </div>
+            </div>
+            <!--CARD3-->
+            <!-- <div class="experiences">
               <img src="" alt="" class="experience__image">
               <div class="experience__info">
                 <p class="experience__time">
-                  Feb 2022 - Current
+                  Mar 2021 - Current
                 </p>
                 <h3 class="experience__job">BackEnd and FrontEnd Developer</h3>
                 <p class="experience__description">
-                  sdsdddasdsdsdsdsssssssssssssss
-                  sdsdsdsdssssssssssssssssssssssssss
-                  sdsdsdsddddddddddddddddddddddddd
+                 <p class="card__subtitle">Rol: Developer - soporte</p>  
+                 <p class="card__subtitle">Empresa: Neps</p>  
+                 <p class="card__subtitle">Proyectos: CABA -</p>  
+                 <p class="card__subtitle">Tecnologias: .Net - C# - JS </p>    
                 </p>
-              </div>
-            </div>
-            <div class="experiences">
-              <img src="" alt="" class="experience__image">
-              <div class="experience__info">
-                <p class="experience__time">
-                  Feb 2022 - Current
-                </p>
-                <h3 class="experience__job">BackEnd and FrontEnd Developer</h3>
-                <p class="experience__description">
-                  sdsdddasdsdsdsdsssssssssssssss
-                  sdsdsdsdssssssssssssssssssssssssss
-                  sdsdsdsddddddddddddddddddddddddd
-                </p>
-              </div>
-            </div>
+              </div> -->
+            <!-- </div> --> 
+          </article>
+          
+          <article class="card card--training">
+            <h2 class="card__title" data-section="educacional" data-value="titulo1">Educational Background</h2>                      
+            <p class="card__text" data-section="educacional" data-value="titulo2"">Developer Software 3 years - I.T.S.C - Cordoba - Argentina</p>
+            <p class="card__text" data-section="educacional" data-value="titulo3">Systems analyst 3 years - University National of Cordoba - Famaf - Argentina</p>
           </article>
           <article class="card card--hobbies">
-            <h2 class="card__title">Hobbies</h2>
+            <h2 class="card__title">Hobies</h2>
             <div class="card__image-container">
               <img src="assets/images/hobbie.jpg" alt="bikes">
             </div>
-            <h3 class="hobbie__title">Hiking</h3>
-            <p class="card__text">Para distraerme...</p>
+            <h3 class="hobbie__title"></h3>
+            <p class="card__text"></p>
           </article>
         </section>
+        
         <section class="column column--right">
           <article class="card">
             <h2 class="card__title">Back End</h2>
@@ -152,39 +174,33 @@
             </div>
           </article>
           <article class="card">
-            <h2 class="card__title">Idiomas</h2>
+            <h2 class="card__title" data-section="languajes-skill" data-value="languajes">Idiomas</h2>
             <div class="skills">                
                 <div class="skills__item">
-                  <p class="skills__tech">Ingles Lectura</p>
+                  <p class="skills__tech" data-section="languajes-skill" data-value="reading">English reading</p>
                   <div class="skills__bar skills__bar--80"></div>
                 </div>  
                 <div class="skills__item">
-                  <p class="skills__tech">Ingles Conversacional</p>
+                  <p class="skills__tech" data-section="languajes-skill" data-value="spoken">Spoken English</p>
                   <div class="skills__bar skills__bar--50"></div>
                 </div>             
             </div>
           </article>
+          <!--PROJECT CARD-->
           <article class="card card--project">
             <div class="card__image-container">
-              <img src="assets/images/project.jpg" alt="project asp.net" class="card__image">
+              <img src="assets/images/project2.jpg" alt="project asp.net" class="card__image">
             </div>
             <div class="project">
               <div class="project__tags">
-                <span class="project__tag">#C#</span>
-                <span class="project__tag">#.Net </span>
-                <span class="project__tag">#Angular</span>
+                <span class="project__tag">C#</span>
+                <span class="project__tag">.Net Core </span>
+                <span class="project__tag">Angular</span>
               </div>
-              <h2 class="card__title">Titulo Proyecto</h2>
-              <p class="card__text">sdsdsdsdsdsdsdsdd
-                sdsdsdsdsdsdsdsdsd
-                sdsdsdsdsdsdsdsdsdsdsdsdsdsds
-                sdsdsdsdsdsdsdsssssssssssssssss
-              </p>  
-              <p class="card__text">sdsdsdsdsdsdsdsdd
-                sdsdsdsdsdsdsdsdsd
-                sdsdsdsdsdsdsdsdsdsdsdsdsdsds
-                sdsdsdsdsdsdsdsssssssssssssssss
-              </p>
+              <h2 class="card__title" data-section="projects1" data-value="title">Product Exchange Website - Api Rest</h2>
+              <p class="card__text" data-section="projects1" data-value="description">
+                Sitio web para intercambio de productos y servicios               
+              </p>               
               <div class="buttons">
                 <a href="#" class="button button--primary">Demo</a>
                 <a href="#" class="button button--ghost">Code</a>
@@ -197,54 +213,68 @@
             </div>
             <div class="project">
               <div class="project__tags">
-                <span class="project__tag">#C#</span>
-                <span class="project__tag">#.Net </span>
-                <span class="project__tag">#Angular</span>
+                <span class="project__tag">C#</span>
+                <span class="project__tag">.Net Core </span>
+                <span class="project__tag">Angular</span>
+                
               </div>
-              <h2 class="card__title">Titulo Proyecto</h2>
-              <p class="card__text">sdsdsdsdsdsdsdsdd
-                sdsdsdsdsdsdsdsdsd
-                sdsdsdsdsdsdsdsdsdsdsdsdsdsds
-                sdsdsdsdsdsdsdsssssssssssssssss
+              <h2 class="card__title" data-section="projects2" data-value="title">Dating Website</h2>
+              <p class="card__text" data-section="projects2" data-value="description">
+                Sitio web para encuentros
               </p>  
-              <p class="card__text">sdsdsdsdsdsdsdsdd
-                sdsdsdsdsdsdsdsdsd
-                sdsdsdsdsdsdsdsdsdsdsdsdsdsds
-                sdsdsdsdsdsdsdsssssssssssssssss
-              </p>
+              
               <div class="buttons">
                 <a href="#" class="button button--primary">Demo</a>
                 <a href="#" class="button button--ghost">Code</a>
               </div>
             </div>
           </article>
-          <article class="card card--project">
+          <!-- <article class="card card--project">
             <div class="card__image-container">
               <img src="assets/images/project.jpg" alt="project asp.net" class="card__image">
             </div>
             <div class="project">
               <div class="project__tags">
-                <span class="project__tag">#C#</span>
-                <span class="project__tag">#.Net </span>
-                <span class="project__tag">#Angular</span>
+                <span class="project__tag">C#</span>
+                <span class="project__tag">.Net </span>
+                <span class="project__tag">Angular</span>
               </div>
-              <h2 class="card__title">Titulo Proyecto</h2>
+              <h2 class="card__title">Biblioteca</h2>
               <p class="card__text">sdsdsdsdsdsdsdsdd
                 sdsdsdsdsdsdsdsdsd
                 sdsdsdsdsdsdsdsdsdsdsdsdsdsds
                 sdsdsdsdsdsdsdsssssssssssssssss
               </p>  
-              <p class="card__text">sdsdsdsdsdsdsdsdd
-                sdsdsdsdsdsdsdsdsd
-                sdsdsdsdsdsdsdsdsdsdsdsdsdsds
-                sdsdsdsdsdsdsdsssssssssssssssss
-              </p>
+              
               <div class="buttons">
                 <a href="#" class="button button--primary">Demo</a>
                 <a href="#" class="button button--ghost">Code</a>
               </div>
             </div>
-          </article>
+          </article> -->
+          <!-- <article class="card card--project">
+            <div class="card__image-container">
+              <img src="assets/images/project.jpg" alt="project asp.net" class="card__image">
+            </div>
+            <div class="project">
+              <div class="project__tags">
+                <span class="project__tag">C#</span>
+                <span class="project__tag">.Net </span>
+                <span class="project__tag">Angular</span>
+              </div>
+              <h2 class="card__title">Defensa del consumidor</h2>
+              <p class="card__text">sdsdsdsdsdsdsdsdd
+                sdsdsdsdsdsdsdsdsd
+                sdsdsdsdsdsdsdsdsdsdsdsdsdsds
+                sdsdsdsdsdsdsdsssssssssssssssss
+              </p>  
+              
+              <div class="buttons">
+                <a href="#" class="button button--primary">Demo</a>
+                <a href="#" class="button button--ghost">Code</a>
+              </div>
+            </div>
+          </article> -->
         </section>        
       </main>
     </div>

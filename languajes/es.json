@@ -1,7 +1,47 @@
 {
   "profile": {
-    "rol": "Desarrollador Back-End",
-    "description": "Tengo experiencia trabajando con metodologia scrum, ademas realice manteniemiento evolutivo y nuevas funcionalidades en proyectos"
+    "rol": "Desarrollador FullStack",
+    "description": "Tengo experiencia trabajando con la metodología Scrum, donde contribuyo activamente tanto al mantenimiento evolutivo como al desarrollo de nuevas funcionalidades en proyectos."
   },
-  "experience": {}
+  "experience1": {
+    "work": "Experiencia Laboral",
+    "time":"Feb 2022"
+  },
+  "description-job1": {
+    "title":"Desarrollador Back-Front",
+    "rol": "Rol: Desarrollador",
+    "company": "Empresa: Neps",
+    "proyects":"Proyectos: CABA - IUCBC - BANORTE - SHOPIFY",
+    "technologies1":"Tecnologias: .Net - C# - JS",
+    "technologies2":"Funciones: Mantenimiento - Agregado de nuevas funcionalidades - Soporte en sql"
+
+  },
+  "experience2": {
+    "work": "Experiencia Laboral",
+    "time":"Abr 2022 - Actualidad",
+    "technologies":"Tecnologias: .Net - C# - JS"
+  },
+  
+  "languajes-skill": {
+    "languajes": "Idioma Ingles",
+    "reading":"lectura",
+    "spoken":"conversacional"
+    
+  },
+  "projects1": {
+    "title":"Sitio Web de Intercambio de Productos - Api Rest",
+    "description":"Sitio web para intercambio de productos y servicios" 
+    
+  },
+  "projects2": {
+    "title":"Sitio Web de Citas - Api Rest",
+    "description":"Sitio web para encuentros" 
+    
+  },
+  "educacional": {
+    "titulo1": "Antecedentes educativos",
+    "titulo2": "Desarrollador de Software - 3 años - I.T.S.C - Córdoba - Argentina",
+    "titulo3": "Analista de sistemas - 3 años - Universidad Nacional de Córdoba - Argentina"
+        
+  }
 }

@@ -1,7 +1,41 @@
 {
   "profile": {
-    "rol": "Back End Developer",
-    "description": "I have experience working with scrum methodology, I also perform evolutionary maintenance and new functionalities in projects."
+    "rol": "FullStack Developer",
+    "description": "I am experienced in working with the Scrum methodology, where I actively contribute to both evolutionary maintenance and the development of new functionalities in projects."
   },
-  "experience": {}
+  "experience1": {
+    "work":"Work Experience",
+    "time":"Feb 2022"
+  },
+  "description-job1":{
+    "title":"Back-Front Developer",
+    "rol": "Role: Developer",
+    "company": "Company: Neps",
+    "proyects":"Proyects: CABA - IUCBC - BANORTE - SHOPIFY",
+    "technologies1":"Technologies: .Net - C# - JS",
+    "technologies2":"Functions: Maintenance - Added new features - SQL support"
+  },  
+  "experience2": {
+    "work": "Experiencia Laboral",
+    "time":"Abr 2022 - Current"
+  },
+  "languajes-skill": {
+    "languajes": "English language",
+    "reading":"reading",
+    "spoken":"spoken"
+  },
+  "projects1": {
+    "title":"Product Exchange Website - Api Rest",
+    "description":"Website for exchange of products and services"  
+  },
+  "projects2": {
+    "title":"Dating Website - Api Rest",
+    "description":"Site for dating"    
+  },
+  "educacional": {
+    "titulo1": "Educational Background",
+    "titulo2": "Developer Software 3 years - I.T.S.C - Cordoba - Argentina",
+    "titulo3": "Systems analyst 3 years - University National of Cordoba - Famaf - Argentina"
+       
+  }
 }
