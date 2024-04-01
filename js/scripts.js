@@ -40,3 +40,21 @@ toggleTheme.addEventListener("click", () => {
 toggleColors.addEventListener("click", (e) => {
   rootStyles.setProperty("--primary-color", e.target.dataset.color);
 });
+
+// document.addEventListener("DOMContentLoaded", function() {
+//   var palabras = Array.from(document.querySelectorAll("#lista-palabras li"));
+//   var indice = 0;
+
+//   function mostrarSiguientePalabra() {
+//     palabras.forEach(function(palabra) {
+//       palabra.style.display = "none"; // Oculta todas las palabras
+//     });
+    
+//     indice = (indice + 1) % palabras.length;
+//     palabras[indice].style.display = "block"; // Muestra la siguiente palabra
+//     setTimeout(mostrarSiguientePalabra, 5000); // Cambia cada 2 segundos
+//   }
+
+//   mostrarSiguientePalabra();
+// });
+
