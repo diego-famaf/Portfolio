@@ -13,7 +13,7 @@
     "company": "Company: Neps",
     "proyects":"Proyects: CABA - IUCBC - BANORTE - SHOPIFY",
     "technologies1":"Technologies: .Net - C# - JS",
-    "technologies2":"Functions: Maintenance - Added new features - SQL support"
+    "technologies2":"Functions: Analysis - Maintenance - Added new features - SQL support"
   },  
   "experience2": {
     "work": "Experiencia Laboral",
@@ -34,8 +34,8 @@
   },
   "educacional": {
     "titulo1": "Educational Background",
-    "titulo2": "Developer Software 3 years - I.T.S.C - Cordoba - Argentina",
-    "titulo3": "Systems analyst 3 years - University National of Cordoba - Famaf - Argentina"
+    "titulo2": "Developer Software - 3 years - I.T.S.C - Cordoba - Argentina",
+    "titulo3": "Systems analyst - 3 years - University National of Cordoba - Famaf - Argentina"
        
   }
 }
