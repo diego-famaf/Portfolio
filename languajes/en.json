@@ -1,11 +1,11 @@
 {
   "profile": {
-    "rol": "FullStack Developer",
+    "rol": "Backend Developer",
     "description": "I am experienced in working with the Scrum methodology, where I actively contribute to both evolutionary maintenance and the development of new functionalities in projects."
   },
   "experience1": {
     "work":"Work Experience",
-    "time":"Feb 2022"
+    "time":""
   },
   "description-job1":{
     "title":"Back-Front Developer",
