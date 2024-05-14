@@ -37,5 +37,10 @@
     "titulo2": "Developer Software - 3 years - I.T.S.C - Cordoba - Argentina",
     "titulo3": "Systems analyst - 3 years - University National of Cordoba - Famaf - Argentina"
        
+  },
+  "educacional-course": {
+    "titulo1": "Certified courses",
+    "titulo2": "Ultimate C# Masterclass for 2024 - Udemy",
+    "titulo3": "Build an app with ASPNET Core API and Angular from scratch - Udemy"
   }
 }

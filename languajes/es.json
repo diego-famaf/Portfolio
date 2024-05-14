@@ -43,5 +43,10 @@
     "titulo2": "Desarrollador de Software - 3 años - I.T.S.C - Córdoba - Argentina",
     "titulo3": "Analista de sistemas - 3 años - Universidad Nacional de Córdoba - Argentina"
         
+  },
+  "educacional-course": {
+    "titulo1": "Cursos Certificados",
+    "titulo2": "Ultimate C# Masterclass for 2024 - Udemy",
+    "titulo3": "Build an app with ASPNET Core API and Angular from scratch - Udemy"
   }
 }
