@@ -24,16 +24,16 @@
         </div>
         <div id="flags" class="flags">
           <div class="flags__item" data-language ="es">
-            <img src="assets/icons/ar.svg" alt="Argentina">
+            <img src="assets/icons/español.png" alt="Argentina">
           </div>
           <div class="flags__item" data-language ="en">
-            <img src="assets/icons/us.svg" alt="Usa">
+            <img src="assets/icons/english.svg" alt="Usa">
           </div>
         </div>
         <div id="toggle-colors" class ="colors">
           <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
-          <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
-          <div data-color="hsl(0, 84%, 56%)" class="colors__item colors__item--red"></div>
+          <div data-color="hsl(137, 74%, 30%)" class="colors__item colors__item--green"></div>
+          <div data-color="hsl(15, 100%, 59%)" class="colors__item colors__item--red"></div>
           <div data-color="hsl(46, 84%, 56%)"  class="colors__item colors__item--orange"></div>
         </div>
       </header>
@@ -64,9 +64,12 @@
                 </div>
                 <div class="card__link">
                   <i class="fas fa-file icon"></i>
-                  <a href="assets/images/CV-DiegoLinares.pdf" target="_blank">
-                     curriculum vitae
+                  <a href="assets/images/CV-español.pdf" target="_blank">
+                     CV español
                   </a>
+                  <a href="assets/images/CV-english.pdf" target="_blank">
+                    CV english
+                 </a>
                 </div>
                 <p class="card__text" data-section="profile" data-value="description">
                   I am experienced in working with the Scrum methodology, where I actively contribute to both evolutionary maintenance and the development of new functionalities in projects.
@@ -88,7 +91,7 @@
                  <p class="card__subtitle" data-section="description-job1" data-value="rol">Rol: Developer </p>  
                  <p class="card__subtitle" data-section="description-job1" data-value="company">Empresa: Neps</p>  
                  <p class="card__subtitle" data-section="description-job1" data-value="proyects">Proyectos: CABA - IUCBC - BANORTE - SHOPIFY</p>  
-                 <p class="card__subtitle" data-section="description-job1" data-value="technologies1">Tecnologias: .Net - C# - JS </p>                     
+                 <p class="card__subtitle" data-section="description-job1" data-value="technologies1">Tecnologias: .Net - Net Core - ASP Net - C# - JS </p>                     
                  <p class="card__subtitle" data-section="description-job1" data-value="technologies2">Funcion: Analisis - Mantenimiento - Agregado de nuevas funcionalidades - Soporte en sql </p>                     
                 </p>
               </div>
@@ -128,8 +131,20 @@
           </article>
           
           <article class="card card--training">
-            <h2 class="card__title" data-section="educacional" data-value="titulo1">Educational Background</h2>                      
+            <h2 class="card__title" data-section="educacional" data-value="titulo1">Educational Background</h2>  
+            <div class="card__link">
+              <i class="fas fa-trophy icon"></i>
+              <a href="assets/images/20240518_005627.jpg" target="_blank">
+                 Certified
+              </a>
+            </div>                   
             <p class="card__text" data-section="educacional" data-value="titulo2"">Developer Software - 3 years - I.T.S.C - Cordoba - Argentina</p>
+            <div class="card__link">
+              <i class="fas fa-trophy icon"></i>
+              <a href="assets/images/comprobante.pdf" target="_blank">
+                 Certified
+              </a>
+            </div>
             <p class="card__text" data-section="educacional" data-value="titulo3">Systems analyst - 3 years - University National of Cordoba - Famaf - Argentina</p>
           </article>
           <article class="card card--training">
@@ -188,6 +203,7 @@
                   <p class="skills__tech">Angular</p>
                   <div class="skills__bar skills__bar--50"></div>
                 </div>
+                
             </div>
           </article>
           <article class="card">
@@ -203,6 +219,22 @@
                 </div>             
             </div>
           </article>
+          <article class="card">
+            <h2 class="card__title" data-section="container-skill" data-value="actual">Aprendiendo ahora</h2>
+            <div class="skills">                
+                <div class="skills__item">
+                  <p class="skills__tech" data-section="container-skill" data-value="docker">Docker</p>
+                  <div class="skills__bar skills__bar--40"></div>
+                </div>  
+                <div class="skills__item">
+                  <p class="skills__tech" data-section="container-skill" data-value="azure">Azure</p>
+                  <div class="skills__bar skills__bar--30"></div>
+                </div>             
+            </div>
+          </article>
+          <!-- Title for Projects Section -->
+          <h2 class="section__title" data-section="MiProyects" data-value="title">My projects</h2>
+
           <!--PROJECT CARD-->
           <article class="card card--project">
             <div class="card__image-container">
@@ -242,6 +274,13 @@
                 <a href="https://github.com/diego-famaf/Intercambia" target="_blank" class="button button--ghost">Code</a>
               </div>
             </div>
+            <div class="nested-card-container">
+              <article class="card nested-card">
+                <h3 class="nested-card__title" data-section="toolsUsed" data-value="title">Tools used</h3>
+                <p class="nested-card__text"></p>
+                <ul id="dynamic-words" class="dynamic-words"></ul>
+              </article>
+            </div>
           </article>
           <article class="card card--project">
             <div class="card__image-container">
@@ -263,6 +302,14 @@
                 <a href="https://datingapp-diego859.fly.dev/members" target="_blank" class="button button--primary">Demo</a>
                 <a href="https://github.com/diego-famaf/DatingApp" target="_blank" class="button button--ghost">Code</a>
               </div>
+
+            </div>
+            <div class="nested-card-container">
+              <article class="card nested-card">
+                <h3 class="nested-card__title"></h3>
+                <p class="nested-card__text"></p>
+                <ul id="dynamic-words" class="dynamic-words"></ul>
+              </article>
             </div>
           </article>
           <!-- <article class="card card--project">

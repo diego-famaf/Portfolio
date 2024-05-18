@@ -41,6 +41,40 @@ toggleColors.addEventListener("click", (e) => {
   rootStyles.setProperty("--primary-color", e.target.dataset.color);
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("data/words.json")
+    .then(response => response.json())
+    .then(data => {
+      const words = data.words; 
+      const dynamicWordsContainer = document.getElementById('dynamic-words');
+      let currentIndex = 0;
+
+      const showWord = () => {
+        
+        dynamicWordsContainer.innerHTML = '';
+        
+        const wordItem = document.createElement('li');
+        wordItem.textContent = words[currentIndex];
+        dynamicWordsContainer.appendChild(wordItem);
+
+        
+        requestAnimationFrame(() => {
+          wordItem.style.opacity = 1;
+        });
+
+        
+        setTimeout(() => {
+          wordItem.style.opacity = 0;
+          currentIndex = (currentIndex + 1) % words.length;
+          setTimeout(showWord, 2500); 
+        }, 2000); 
+      };
+
+      showWord();
+    })
+    .catch(error => console.error('Error fetching the JSON:', error));
+});
+
 // document.addEventListener("DOMContentLoaded", function() {
 //   var palabras = Array.from(document.querySelectorAll("#lista-palabras li"));
 //   var indice = 0;

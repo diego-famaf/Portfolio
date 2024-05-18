@@ -12,8 +12,8 @@
     "rol": "Role: Developer",
     "company": "Company: Neps",
     "proyects":"Proyects: CABA - IUCBC - BANORTE - SHOPIFY",
-    "technologies1":"Technologies: .Net - C# - JS",
-    "technologies2":"Functions: Analysis - Maintenance - Added new features - SQL support"
+    "technologies1":"Technologies: .Net - Net Core - ASP Core - C# - JS",
+    "technologies2":"Functions: Analysis - Maintenance - Added new features - sql "
   },  
   "experience2": {
     "work": "Experiencia Laboral",
@@ -23,6 +23,11 @@
     "languajes": "English language",
     "reading":"reading",
     "spoken":"spoken"
+  },
+  "container-skill": {
+    "actual": "Learning now",
+    "docker":"Docker",
+    "azure":"Azure"   
   },
   "projects1": {
     "title":"Product Exchange Website - Api Rest",
@@ -42,5 +47,13 @@
     "titulo1": "Certified courses",
     "titulo2": "Ultimate C# Masterclass for 2024 - Udemy",
     "titulo3": "Build an app with ASPNET Core API and Angular from scratch - Udemy"
+  },
+  "MiProyects": {
+    "title": "My projects"
+    
+  },
+  "toolsUsed": {
+    "title": "Tools Used"
+    
   }
 }

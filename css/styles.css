@@ -105,11 +105,11 @@ body.dark {
 }
 
 .colors__item--green {
-  --primary-color: hsl(150, 84%, 56%);
+  --primary-color: hsl(137, 74%, 30%);
 }
 
 .colors__item--red {
-  --primary-color: hsl(0, 84%, 56%);
+  --primary-color: hsl(15, 100%, 59%);
 }
 
 .colors__item--orange {
@@ -153,6 +153,7 @@ main {
 }
 
 .card__image-container {
+  flex: 1;
   min-width: 320px;
   max-height: 200px;
   border-radius: var(--border-radius);
@@ -185,7 +186,8 @@ main {
 
 @media screen and (min-width: 760px) {
   .card--project {
-    display:grid;
+    display:flex;
+    flex-direction: row;
     grid-template-columns: min-content 1fr;
     grid-column: 1 / -1;
   }
@@ -281,6 +283,7 @@ main {
 }
 
 .project {
+  flex: 2;
   position: relative;
 }
 
@@ -357,7 +360,57 @@ main {
     transform: translateX(var(--skill-bar-lenght));
   }
 }
+/* General Styles for the Section Title */
+.section__title {
+  font-size: 1em;
+  margin-bottom: 1em;
+  text-align: left;
+  background-color: var(--primary-color); 
+  padding: 0.3em;
+  width: 100%;
+  box-sizing: border-box;
+  color: var(--bg-color);
+  
+}
+.nested-card-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex;
+  align-items: flex-start;
+  border: 2px solid var(--primary-color);
+  transition: var(--transition);
+  border-radius: var(--border-radius);
+  
+  
+}
+.nested-card { 
+  padding: 15px; 
+  max-width: 300px; /* Adjust this value as needed */
+}
 
+.nested-card__title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  
+}
+
+.nested-card__text {
+  font-size: 1em;
+  color: #555;
+  
+}
+
+.dynamic-words {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dynamic-words li {
+  font-size: 1em;
+  color: var(--primary-color);
+  opacity: 0;
+  transition: opacity 1s;
+}
 /* #marco {
   width: 500px;
   height: 120px; 
