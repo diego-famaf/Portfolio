@@ -142,7 +142,7 @@ main {
   .column--right {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, min-content);
-    align-items: start;
+    
   }
 }
 
@@ -197,10 +197,24 @@ main {
   padding: 1em 0;
 }
 
+.skills__header{
+  display: flex;
+  justify-content: space-between;
+  width: 175px;
+  margin-left: auto;
+}
+
+
+.skills__tech{
+  margin: 0;
+  font-size: 0.8rem;
+}
+
 .skills__item {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 0.5rem;
 }
 
 .skills__bar,

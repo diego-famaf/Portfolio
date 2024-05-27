@@ -1,7 +1,7 @@
 {
   "profile": {
     "rol": "Backend Developer",
-    "description": "I am experienced in working with the Scrum methodology, where I actively contribute to both evolutionary maintenance and the development of new functionalities in projects."
+    "description": "I have more than 1 year of experience, my preference is backend, I work with the Scrum methodology, in work teams I actively participate in the development cycle of different applications and systems, both in the development of new functionalities, evolutionary maintenance and improvements. I consider myself very adaptable since I have been in several different projects."
   },
   "experience1": {
     "work":"Work Experience",
@@ -18,6 +18,12 @@
   "experience2": {
     "work": "Experiencia Laboral",
     "time":"Abr 2022 - Current"
+  },
+  "years-experience":{
+    "title":"Years of Experience"
+  },
+  "level":{
+    "title":"Level"
   },
   "languajes-skill": {
     "languajes": "English language",
