@@ -29,6 +29,7 @@ body {
   color: var(--text-color);
   transition: var(--transition);
   font-family: sans-serif;
+  margin-top: 75px;
 }
 
 body.dark {
@@ -45,6 +46,10 @@ body.dark {
   padding: 0 1.5em;
   background-color: var(--bg-card-color);
   transition: var(--transition);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:1000;
 }
 
 .switches {

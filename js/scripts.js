@@ -17,7 +17,7 @@ flagsElement.addEventListener("click", (e) => {
 });
 
 const changeLanguage = async (language) => {
-  const requestJson = await fetch(`./languajes/${language}.json`);
+  const requestJson = await fetch(`./languages/${language}.json`);
   const texts = await requestJson.json();
 
   for (const textToChange of textsToChange) {
