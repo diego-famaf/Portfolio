@@ -1,7 +1,7 @@
 {
   "profile": {
     "rol": "Backend Developer",
-    "description": "I have more than 1 year of experience, my preference is backend, I work with the Scrum methodology, in work teams I actively participate in the development cycle of different applications and systems, both in the development of new functionalities, evolutionary maintenance and improvements.Likewise, I personally developed projects completely from the beginning. I consider myself very adaptable since I have been in several different projects."
+    "description": "I have more than 1 year of experience, I work with the Scrum methodology, in work teams I actively participate in the development cycle of different applications and systems, both in the development of new functionalities, evolutionary maintenance and improvements.Likewise, I personally developed projects completely from the beginning. I consider myself very adaptable since I have been in several different projects."
   },
   "experience1": {
     "work":"Work Experience",
@@ -49,10 +49,15 @@
     "title":"Dating Website - Api Rest",
     "description":"Site for dating"    
   },
+  "projects3": {
+    "title":"Retail and wholesale e-commerce",
+    "description":"Website to buy books for retail and wholesale"    
+  },
   "educacional": {
     "titulo1": "Educational Background",
     "titulo2": "Developer Software - 3 years - I.T.S.C - Cordoba - Argentina",
-    "titulo3": "Systems analyst - 3 years - University National of Cordoba - Famaf - Argentina"
+    "titulo3": "Systems analyst - 3 years - University National of Cordoba - Famaf - Argentina",
+    "titulo4": "EF SET English Certificate 55/100 (B2 Upper Intermediate)"
        
   },
   "educacional-course": {

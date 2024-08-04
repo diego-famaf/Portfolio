@@ -1,7 +1,6 @@
 {
       "words": 
-      [
-        
+      [       
             "Implement the basic API functionality",
             "Using the dotnet CLI",
             "API Controllers and Endpoints",
@@ -66,57 +65,8 @@
             "Caching data in Angular services",
             "Implement photo upload functionality in the application",
             "Photo storage options",
-            "Adding related entities",
-            "Using a 3rd party API",
-            "Using the Debugger (again!)",
-            "Updating and deleting resources",
-            "What to return when creating resources in a REST based API",
-            "Implement more advanced forms using Reactive Forms in Angular",
-            "Use Reactive Forms",
-            "Use Angular Validation for inputs",
-            "Implement custom validators",
-            "Implement reusable form controls",
-            "Working with Date inputs",
-            "Implement paging, sorting, filtering",
-            "How to implement pagination on the API & client",
-            "Deferred Execution using IQueryable",
-            "How to implement filtering on the API & client",
-            "How to implement sorting on the API & client",
-            "Using Action Filters",
-            "Adding a TimeAgo pipe",
-            "Implement caching in the client for paginated resources",
-            "Implement the 'exchange user' functionality",
-            "Many to many relationships",
-            "Configuring entities in the DbContext",
-            "Implement the Messaging functionality",
-            "More many to many to many relationships",
-            "Using query params in Angular",
-            "Using Route resolvers in Angular",
-            "Refactor our code to use ASP.NET Identity",
-            "Using .Net Identity",
-            "Role management",
-            "Policy based authorisation",
-            "UserManager<T>",
-            "SignInManager<T>",
-            "RoleManager<T>",
-            "Implement SignalR into our application",
-            "Use and set up SignalR on both the API and the client",
-            "Implement online presence",
-            "Implement live chat between users",
-            "Implement the Unit of work pattern",
-            "The Unit of Work pattern",
-            "Optimising queries to the DB",
-            "Adding a confirm dialog service",
-            "Finishing touches",
-            "Actually publish the app",
-            "Prepare the app for publication",
-            "What to consider before publishing",
-            "Switching DBs",
-            "Serving static content from the API server",
-            "Publishing to Flyio",
-            "Integrating Heroku to GitHub",
-            "Using git branches"
-          ]
-    
+            "Adding related entities"
+            
+      ]   
 }
 

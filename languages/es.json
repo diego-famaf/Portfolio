@@ -1,7 +1,7 @@
 {
   "profile": {
     "rol": "Desarrollador Backend",
-    "description": "Tengo más de 1 año de experiencia, mi preferencia es backend, trabajo con la metodología Scrum, en equipos de trabajo participo activamente en el ciclo de desarrollo de diferentes aplicaciones y sistemas, tanto en el desarrollo de nuevas funcionalidades, mantenimiento evolutivo y mejoras.Asi tambien de forma personal desarrolle proyectos completamente desde el inicio. Me considero muy adaptable ya que he estado en varios proyectos diferentes."
+    "description": "Tengo más de 1 año de experiencia, trabajo con la metodología Scrum, en equipos de trabajo participo activamente en el ciclo de desarrollo de diferentes aplicaciones y sistemas, tanto en el desarrollo de nuevas funcionalidades, mantenimiento evolutivo y mejoras.Asi tambien de forma personal desarrolle proyectos completamente desde el inicio. Me considero muy adaptable ya que he estado en varios proyectos diferentes."
   },
   "experience1": {
     "work": "Experiencia Laboral",
@@ -46,25 +46,32 @@
     "azure":"Azure"   
   },
   "projects1": {
-    "title":"Sitio Web de Intercambio de Productos - Api Rest",
+    "title":"Sitio Web de Intercambio de Productos - Api Rest ful",
     "description":"Sitio web para intercambio de productos y servicios" 
     
   },
   "projects2": {
-    "title":"Sitio Web de Citas - Api Rest",
+    "title":"Sitio Web de Citas - Api Rest ful",
     "description":"Sitio web para encuentros" 
+    
+  },
+  "projects3": {
+    "title":"E-commerce minorista y mayorista",
+    "description":"Sitio web para comprar libros por menor y mayor" 
     
   },
   "educacional": {
     "titulo1": "Antecedentes educativos",
     "titulo2": "Desarrollador de Software - 3 años - I.T.S.C - Córdoba - Argentina",
-    "titulo3": "Analista de sistemas - 3 años - Universidad Nacional de Córdoba - Argentina"
+    "titulo3": "Analista de sistemas - 3 años - Universidad Nacional de Córdoba - Argentina",
+    "titulo4": "Certificado de Inglés EF SET 55/100 (B2 Intermedio Alto)"
         
   },
   "educacional-course": {
     "titulo1": "Cursos Certificados",
-    "titulo2": "Ultimate C# Masterclass for 2024 - Udemy",
-    "titulo3": "Build an app with ASPNET Core API and Angular from scratch - Udemy"
+    "titulo2": "Clase magistral definitiva de C# para 2024 - Udemy",
+    "titulo3": "Construye una aplicacion con ASPNET Core API y Angular desde cero - Udemy"
+    
   },
   
   "MiProyects": {

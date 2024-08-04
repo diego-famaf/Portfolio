@@ -48,38 +48,42 @@ toggleColors.addEventListener("click", (e) => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("data/words.json")
-    .then(response => response.json())
-    .then(data => {
-      const words = data.words; 
-      const dynamicWordsContainer = document.getElementById('dynamic-words');
-      let currentIndex = 0;
+  const loadWordsAndAnimate = (url, containerId) => {
+    fetch(url)
+      .then(response => response.json())
+      .then(data => {
+        const words = data.words;
+        const dynamicWordsContainer = document.getElementById(containerId);
+        let currentIndex = 0;
 
-      const showWord = () => {
-        
-        dynamicWordsContainer.innerHTML = '';
-        
-        const wordItem = document.createElement('li');
-        wordItem.textContent = words[currentIndex];
-        dynamicWordsContainer.appendChild(wordItem);
+        const showWord = () => {
+          dynamicWordsContainer.innerHTML = '';
 
-        
-        requestAnimationFrame(() => {
-          wordItem.style.opacity = 1;
-        });
+          const wordItem = document.createElement('li');
+          wordItem.textContent = words[currentIndex];
+          dynamicWordsContainer.appendChild(wordItem);
 
-        
-        setTimeout(() => {
-          wordItem.style.opacity = 0;
-          currentIndex = (currentIndex + 1) % words.length;
-          setTimeout(showWord, 2500); 
-        }, 2000); 
-      };
+          requestAnimationFrame(() => {
+            wordItem.style.opacity = 1;
+          });
 
-      showWord();
-    })
-    .catch(error => console.error('Error fetching the JSON:', error));
+          setTimeout(() => {
+            wordItem.style.opacity = 0;
+            currentIndex = (currentIndex + 1) % words.length;
+            setTimeout(showWord, 2500);
+          }, 2000);
+        };
+
+        showWord();
+      })
+      .catch(error => console.error('Error fetching the JSON:', error));
+  };
+
+  loadWordsAndAnimate("data/words.json", 'dynamic-words');
+  loadWordsAndAnimate("data/project2.json", 'dynamic-words2');
+  loadWordsAndAnimate("data/project3.json", 'dynamic-words3');
 });
+
 
 
 // document.addEventListener("DOMContentLoaded", function() {
