@@ -85,6 +85,11 @@ body.dark {
 .flags__item {
   width: 30px;
   cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.flags__item:hover {
+  box-shadow: 0 0 10px 2px #3182ed;
 }
 
 .colors {
@@ -163,6 +168,27 @@ main {
   max-height: 200px;
   border-radius: var(--border-radius);
   overflow: hidden;
+  perspective: 1000px;
+  transition: box-shadow 0.4s ease;
+}
+
+.card__image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease; /* Suaviza la transición */
+  transform-origin: center;
+  border-radius: inherit;
+}
+
+.card__image-container:hover img {
+  transform: rotateY(10deg) rotateX(10deg) scale(1.1); /* Efecto 3D */
+  
+}
+
+.card__image-container:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.6); /* Efecto de luz */
+  
 }
 
 .card__header {
