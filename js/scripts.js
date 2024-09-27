@@ -85,6 +85,16 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+  document.querySelector('.scroll-to-top').addEventListener('click', function(event) {
+    event.preventDefault(); // Evita que se comporte como un link normal
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+
+
+
 
 // document.addEventListener("DOMContentLoaded", function() {
 //   var palabras = Array.from(document.querySelectorAll("#lista-palabras li"));
