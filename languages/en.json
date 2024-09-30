@@ -37,9 +37,10 @@
     "spoken":"spoken"
   },
   "container-skill": {
-    "actual": "Learning now",
+    "actual": "Working now",
     "docker":"Docker",
-    "azure":"Azure"   
+    "azure":"Azure",
+    "power-by":"Power By"   
   },
   "projects1": {
     "title":"Product Exchange Website - Api Rest",
