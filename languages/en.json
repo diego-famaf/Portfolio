@@ -1,7 +1,7 @@
 {
   "profile": {
     "rol": "Backend and Frontend Developer",
-    "description": "I have more than 1 year of experience, I work with the Scrum methodology, in work teams I actively participate in the development cycle of different applications and systems, both in the development of new functionalities, evolutionary maintenance and improvements.Likewise, I personally developed projects completely from the beginning. I consider myself very adaptable since I have been in several different projects."
+    "description": "I have experience in software development, with a preference for backend. I have worked using the Scrum methodology, actively participating in the development cycle of various applications and systems, including the creation of new features, evolutionary maintenance, and improvements. Additionally, I have independently developed projects from scratch. My adaptability has been key to successfully integrating into different projects and teams."
   },
   "experience1": {
     "work":"Work Experience",
@@ -58,7 +58,8 @@
     "titulo1": "Educational Background",
     "titulo2": "Developer Software - 3 years - I.T.S.C - Cordoba - Argentina",
     "titulo3": "Systems analyst - 3 years - University National of Cordoba - Famaf - Argentina",
-    "titulo4": "EF SET English Certificate 55/100 (B2 Upper Intermediate)"
+    "titulo4": "EF SET English Certificate 55/100 (B2 Upper Intermediate)",
+    "titulo5": "Certified"
        
   },
   "educacional-course": {

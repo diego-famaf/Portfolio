@@ -1,7 +1,7 @@
 {
   "profile": {
     "rol": "Desarrollador Backend y Frontend",
-    "description": "Tengo más de 1 año de experiencia, trabajo con la metodología Scrum, en equipos de trabajo participo activamente en el ciclo de desarrollo de diferentes aplicaciones y sistemas, tanto en el desarrollo de nuevas funcionalidades, mantenimiento evolutivo y mejoras.Asi tambien de forma personal desarrolle proyectos completamente desde el inicio. Me considero muy adaptable ya que he estado en varios proyectos diferentes."
+    "description": "Cuento con experiencia en desarrollo de software, con preferencia por el área de backend, He trabajado bajo la metodología Scrum, colaborando activamente en el ciclo de desarrollo de diversas aplicaciones y sistemas, tanto en el desarrollo de nuevas funcionalidades, mantenimiento evolutivo y mejoras. Así también he desarrollado proyectos desde cero de manera independiente. Mi capacidad de adaptación ha sido clave para integrarme exitosamente en diferentes proyectos y equipos de trabajo."
   },
   "experience1": {
     "work": "Experiencia Laboral",
@@ -65,7 +65,8 @@
     "titulo1": "Antecedentes educativos",
     "titulo2": "Desarrollador de Software - 3 años - I.T.S.C - Córdoba - Argentina",
     "titulo3": "Analista de sistemas - 3 años - Universidad Nacional de Córdoba - Argentina",
-    "titulo4": "Certificado de Inglés EF SET 55/100 (B2 Intermedio Alto)"
+    "titulo4": "Certificado de Inglés EF SET 55/100 (B2 Intermedio Alto)",
+    "titulo5": "Certificado"
         
   },
   "educacional-course": {
