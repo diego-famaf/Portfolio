@@ -12,12 +12,12 @@
     "rol": "Rol: Desarrollador",
     "company": "Empresa: Neps",
     "proyects":"Proyectos: CABA - IUCBC - BANORTE - SHOPIFY",
-    "technologies1":"Tecnologias: .Net - Net Core - ASP Net - C# - JS",
+    "technologies1":"Tecnologias: .Net - Net Core - ASP Net - C# - JS - Angular",
     "technologies2":"Responsabilidades:",
     "resp1":"Colaboré con equipos multifuncionales.",
-    "resp2":"Escribí código limpio, eficiente y fácil de mantener siguiendo las mejores prácticas de .NET",
-    "resp3":"Pruebas Unitarias de aplicaciones .NET para garantizar funcionalidad y confiabilidad.",
-    "resp4":"Integré aplicaciones .NET con bases de datos y API de terceros.",
+    "resp2":"Escribí código limpio, eficiente y fácil de mantener siguiendo las mejores prácticas",
+    "resp3":"Pruebas Unitarias de aplicaciones para garantizar funcionalidad y confiabilidad.",
+    "resp4":"Integré aplicaciones con bases de datos y API de terceros.",
     "resp5":"Solucioné y depuré problemas de software, proporcionando una resolución oportuna.",
     "resp6":"Colaboré en revisiones de código y proporcioné comentarios constructivos a los miembros del equipo"
     
