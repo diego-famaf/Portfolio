@@ -1,7 +1,9 @@
 {
   "profile": {
     "rol": "Desarrollador Backend y Frontend",
-    "description": "Cuento con experiencia en desarrollo de software, tanto BackEnd como FrontEnd. He trabajado bajo la metodología Scrum, colaborando activamente en el ciclo de desarrollo de diversas aplicaciones y sistemas, tanto en el desarrollo de nuevas funcionalidades, mantenimiento evolutivo y mejoras. Así también he desarrollado proyectos desde cero de manera independiente. Mi capacidad de adaptación ha sido clave para integrarme exitosamente en diferentes proyectos y equipos de trabajo."
+    "description": "Cuento con experiencia en desarrollo de software, tanto BackEnd como FrontEnd. Trabajé bajo la metodología Scrum, colaborando activamente en el ciclo de desarrollo de diversas aplicaciones y sistemas, tanto en el desarrollo de nuevas funcionalidades, mantenimiento evolutivo y mejoras. Así también desarrollé proyectos desde cero de manera independiente. Mi capacidad de adaptación ha sido clave para integrarme exitosamente en diferentes proyectos y equipos de trabajo.",
+    "achievementsTitle": "Logros",
+    "achievements":"Desarrollé una aplicación de citas con la idea de reutilizarla para crear otra aplicación con una lógica de negocio diferente (una aplicación para intercambiar bienes y servicios) y lo logré."
   },
   "experience1": {
     "work": "Experiencia Laboral",

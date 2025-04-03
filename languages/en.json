@@ -1,7 +1,9 @@
 {
   "profile": {
     "rol": "Backend and Frontend Developer",
-    "description": "I have experience in software development, both backend and frontend. I have worked using the Scrum methodology, actively participating in the development cycle of various applications and systems, including the creation of new features, evolutionary maintenance, and improvements. Additionally, I have independently developed projects from scratch. My adaptability has been key to successfully integrating into different projects and teams."
+    "description": "I have experience in software development, both backend and frontend. I have worked using the Scrum methodology, actively participating in the development cycle of various applications and systems, including the creation of new features, evolutionary maintenance, and improvements. Additionally, I have independently developed projects from scratch. My adaptability has been key to successfully integrating into different projects and teams.",
+    "achievementsTitle": "Achievements",
+    "achievements":"I developed a dating app with the idea of repurposing it to create another app with a different business logic - an app for exchanging goods and services - and i succeeded."
   },
   "experience1": {
     "work":"Work Experience",
