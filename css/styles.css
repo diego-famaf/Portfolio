@@ -54,6 +54,63 @@ body.dark {
   z-index:1000;
 }
 
+#smoky ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 50px;
+  color: var(--primary-color);
+}
+
+#smoky ul li{
+  list-style: none;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  transition: 2s;
+  opacity: 0.8;
+  color: var(--primary-color);
+}
+
+#smoky ul:hover li{
+  transform: rotate(45deg) translateY(-200px);
+  opacity: 0;
+  filter: blur(20px);
+}
+
+#smoky ul li:nth-child(1) {
+	transition-delay: 0;
+}
+
+#smoky ul li:nth-child(2) {
+	transition-delay: 0.4s;
+}
+
+#smoky ul li:nth-child(3) {
+	transition-delay: 0.8s;
+}
+
+#smoky ul li:nth-child(4) {
+	transition-delay: 1.2s;
+}
+
+#smoky ul li:nth-child(5) {
+	transition-delay: 1.6s;
+}
+#smoky ul li:nth-child(6) {
+	transition-delay: 2.0s;
+}
+#smoky ul li:nth-child(7) {
+	transition-delay: 2.4s;
+}
+#smoky ul li:nth-child(8) {
+	transition-delay: 2.8s;
+}
+#smoky ul li:nth-child(9) {
+	transition-delay: 3.2s;
+}
+
 .switches {
   display: flex;
   align-items: center;
@@ -201,11 +258,13 @@ main {
   margin: 1;
   margin-bottom: 1em;
   font-size: 1.2rem;
+  
 }
 
 .card__subtitle {
   font-size: 0.9rem;
   opacity: 0.8;
+  
 }
 
 .card__link {
@@ -533,4 +592,5 @@ main {
   background-color: #ff622e; 
   color: #000; 
 }
+
 
